@@ -123,6 +123,11 @@
     .sub-heading{
         font-size: 18px;
     }
+    .button button{
+        font-size: 14px;
+        /* width: 100px; */
+        height: 31px;
+    }
 }
 
 @media screen and (max-width: 502px) {
