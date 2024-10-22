@@ -79,6 +79,7 @@
     text-decoration: none;
 }
 
+
 .partition {
     width: 90%;
     margin: 50px auto;
@@ -91,6 +92,58 @@
     margin-left: 5%;
     margin-bottom: 15px;
     color: #14254f;
+}
+
+@media only screen and (max-width:937px){
+    .container1{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+        padding: 50px 0 0 0;
+    }
+    .personal-details{
+        width: 80vw;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 609px) {
+    .name{
+        font-size: 30px;
+    }
+    .branch{
+        font-size: 24px;
+    }
+    .personal-details p{
+        font-size: 14px;
+        line-height: 26px;
+        width: 85vw;
+    }
+    .sub-heading{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 502px) {
+    .name{
+        font-size: 28px;
+    }
+    .branch{
+        font-size: 22px;
+    }
+    .container1{
+        gap: 15px;
+    }
+    .branch{
+        font-size: 20px;
+    }
+    .personal-details p{
+        font-size: 12px;
+        line-height: 22px;
+        width: 90vw;
+        text-align: justify;
+    }
 }
 
 .container2{
@@ -122,6 +175,20 @@
 
 .Sphoto img{
     width: 90px;
+}
+
+@media screen and (max-width: 768px) {
+    .Sphoto img{
+        width: 70px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .container2{
+        width: 92vw;
+    }
+    .swiper{
+        margin-left: 3%;
+    }
 }
 
 .Pcard{
