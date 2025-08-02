@@ -22,7 +22,7 @@ const Hero = () => {
                 <div className="text-xl w-max">Hi there! I'm</div>
                 <div className="name text-4xl md:text-6xl tracking-wide font-bold w-max">Manan Jiwnani</div>
                 <div className="relative mt-3 md:mt-4 inline-block bg-black/30">
-                    <p className="text-sm leading-tight md:hidden">
+                    <p className="text-sm leading-snug md:hidden">
                     I'm a web developer and CP enthusiast in my third year at IIT Indore. I enjoy building projects, collaborating, and solving problems.
                     </p>
                     <p className="hidden md:block text-[16px] leading-normal">

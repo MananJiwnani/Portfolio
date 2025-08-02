@@ -13,7 +13,7 @@ const ProjectCard = ({
   return (
     <div className="bg-white w-[340px] font-mono rounded-2xl overflow-hidden border border-gray-700">
       
-      <div className="bg-black h-min-[280px] text-white p-6">
+      <div className="bg-black h-min-[270px] text-white p-6">
         
         <div className="flex flex-col justify-center items-center gap-3 mb-3">
           <div className="text-green-400 bg-[#121b2d] p-3 rounded-full text-3xl">
@@ -23,12 +23,12 @@ const ProjectCard = ({
         </div>
         
         {/* Description */}
-        <p className="text-gray-300 text-sm mb-4 leading-relaxed">
+        <p className="text-gray-300 text-sm mb-4 leading-normal">
           {description}
         </p>
         
         {/* Technologies */}
-        <div className="flex flex-wrap gap-2 mb-6">
+        <div className="flex flex-wrap gap-2 mb-5">
           {technologies.map((tech, index) => (
             <span
               key={index}

@@ -12,7 +12,7 @@ const Contact = () => {
             <h2 className='font-mono text-green-400'>Touch</h2>
         </div>
 
-        <div className="relative flex justify-center mt-3"><p className='text-sm md:text-[16px] text-center'>Have a project in mind or just want to say hi? I'd love to connect and collaborate!</p></div>
+        <div className="relative flex justify-center mt-3"><p className='text-sm font-mono leading-snug sm:leading-normal md:text-[16px] text-center'>Have a project in mind or just want to say hi? I'd love to connect and collaborate!</p></div>
 
 
         <div className="flex justify-center mt-8 md:mt-10 mb-6 gap-4">
