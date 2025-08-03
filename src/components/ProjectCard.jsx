@@ -23,12 +23,12 @@ const ProjectCard = ({
         </div>
         
         {/* Description */}
-        <p className="text-gray-300 text-sm mb-4 leading-normal">
+        <p className="text-gray-300 hidden sm:flex text-sm mb-4 leading-snug md:leading-normal">
           {description}
         </p>
         
         {/* Technologies */}
-        <div className="flex flex-wrap gap-2 mb-5">
+        <div className="hidden sm:flex flex-wrap gap-2 mb-5">
           {technologies.map((tech, index) => (
             <span
               key={index}
@@ -39,28 +39,31 @@ const ProjectCard = ({
           ))}
         </div>
         
-        {/* Links */}
-        <div className="flex gap-3">
-          {githubUrl && (
-            <a
-              href={githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors duration-100"
-            >
-              <FaGithub size={20} />
-            </a>
-          )}
-          {liveUrl && (
-            <a
-              href={liveUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition-colors duration-100"
-            >
-              <FaExternalLinkAlt size={20} />
-            </a>
-          )}
+        <div className='flex justify-center sm:justify-start'>
+
+          {/* Links */}
+          <div className="flex gap-3">
+            {githubUrl && (
+              <a
+                href={githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors duration-100"
+              >
+                <FaGithub size={20} />
+              </a>
+            )}
+            {liveUrl && (
+              <a
+                href={liveUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors duration-100"
+              >
+                <FaExternalLinkAlt size={20} />
+              </a>
+            )}
+        </div>
         </div>
       </div>
     </div>
